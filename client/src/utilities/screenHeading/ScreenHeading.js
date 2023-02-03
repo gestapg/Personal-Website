@@ -1,4 +1,5 @@
 import React from 'react';
+import './ScreenHeading.css';
 
 const ScreenHeading = (props) => {
   return (
@@ -17,7 +18,9 @@ const ScreenHeading = (props) => {
 
       <div className='heading-separator'>
         <div className='separator-line'>
-          <div className='separator-blob'></div>
+          <div className='separator-blob'>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>

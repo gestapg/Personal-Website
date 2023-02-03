@@ -21,7 +21,7 @@ export default class ScrollService {
     homeScreen.scrollIntoView({ behavior: 'smooth' });
   };
   isElementInView = (elem, type) => {
-    let rec = elem.getboundingClientRect();
+    let rec = elem.getBoundingClientRect();
     let elementTop = rec.top;
     let elementBottom = rec.Bottom;
 
