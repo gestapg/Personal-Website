@@ -6,6 +6,11 @@ import ScreenHeading from '../../utilities/screenHeading/ScreenHeading';
 import ScrollService from '../../utilities/ScrollService';
 import Animations from '../../utilities/Animation';
 import './Testimonial.css';
+import lady from '../../../src/img/Testimonial/lady.png';
+import mike from '../../../src/img/Testimonial/mike.png';
+import man from '../../../src/img/Testimonial/man.png';
+import daisy from '../../../src/img/Testimonial/daisy.jpg';
+import shapeBg from '../../../src/img/Testimonial/shape-bg.png';
 
 const Testimonial = (props) => {
   let fadeInScreenHandler = (screen) => {
@@ -79,10 +84,7 @@ const Testimonial = (props) => {
                     </ul>
                   </div>
                   <div className='client-info'>
-                    <img
-                      src='img/testimonial/lady.png'
-                      alt='no internet connection'
-                    />
+                    <img src={lady} alt='no internet connection' />
                     <h5>Daisy Dominic</h5>
                     <p>CEO JupiterGlobal</p>
                   </div>
@@ -117,10 +119,7 @@ const Testimonial = (props) => {
                     </ul>
                   </div>
                   <div className='client-info'>
-                    <img
-                      src='img/testimonial/mike.png'
-                      alt='no internet connection'
-                    />
+                    <img src={mike} alt='no internet connection' />
                     <h5>Mike Wazowski</h5>
                     <p>Senior Frontend Developer</p>
                   </div>
@@ -155,10 +154,7 @@ const Testimonial = (props) => {
                     </ul>
                   </div>
                   <div className='client-info'>
-                    <img
-                      src='img/testimonial/lady.png'
-                      alt='no internet connection'
-                    />
+                    <img src={man} alt='no internet connection' />
                     <h5>Daisy Dominic</h5>
                     <p>CEO JupiterGlobal</p>
                   </div>
@@ -193,10 +189,7 @@ const Testimonial = (props) => {
                     </ul>
                   </div>
                   <div className='client-info'>
-                    <img
-                      src='img/testimonial/lady.png'
-                      alt='no internet connection'
-                    />
+                    <img src={daisy} alt='no internet connection' />
                     <h5>Daisy Dominic</h5>
                     <p>CEO JupiterGlobal</p>
                   </div>
@@ -207,10 +200,7 @@ const Testimonial = (props) => {
         </div>
       </section>
       <div className='footer-image'>
-        <img
-          src={require('../../assets/Home/shape-bg.png')}
-          alt='no internet connection'
-        />
+        <img src={shapeBg} alt='no internet connection' />
       </div>
     </div>
   );

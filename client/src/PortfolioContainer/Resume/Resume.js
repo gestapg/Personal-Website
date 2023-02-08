@@ -285,7 +285,6 @@ const Resume = (props) => {
   ];
 
   const handleCarousel = (index) => {
-    console.log('click');
     let offsetHeight = 568;
     let newCarouselOffset = {
       style: { transform: 'translateY(' + index * offsetHeight * -1 + 'px)' },

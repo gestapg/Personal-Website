@@ -50,6 +50,10 @@ const ContactMe = (props) => {
         setBanner(res.data.msg);
         toast.success(res.data.msg);
         setBoolean(false);
+
+        setName('');
+        setEmail('');
+        setMessage('');
       }
     } catch (error) {
       console.log(error);
@@ -83,7 +87,7 @@ const ContactMe = (props) => {
         <div className='back-form'>
           <div className='img-back'>
             <h4>Send Your Email Here!</h4>
-            <img src={imgBack} alt='image not found' />
+            <img src={imgBack} alt='not found' />
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>
@@ -106,7 +110,7 @@ const ContactMe = (props) => {
                 <i className='fa fa-paper-plane' />
                 {boolean ? (
                   <b className='load'>
-                    <img src={load1} alt='image not responding' />
+                    <img src={load1} alt='not responding' />
                   </b>
                 ) : (
                   ''

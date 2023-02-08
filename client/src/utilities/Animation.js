@@ -5,8 +5,6 @@ export default class Animations {
     let screen = document.getElementById(screen_name);
     if (!screen_name || !screen) return;
 
-    console.log(screen);
-
     screen.style.opacity = '1';
     screen.style.transform = 'translateY(1px)';
   };
