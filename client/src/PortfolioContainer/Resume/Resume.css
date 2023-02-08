@@ -8,7 +8,7 @@
 }
 .resume-card {
   display: flex;
-  height: 360px;
+  height: 568px;
   width: 1000px;
 }
 .resume-bullets {
@@ -78,7 +78,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 360px;
+  height: 568px;
   width: 100%;
 }
 /* .resume-screen-container-project {
@@ -111,7 +111,7 @@
   font-size: 14px;
   font-family: 'Poppinn SemiBold';
   color: #111;
-  margin: 5px 0 0 0;
+  margin: 2px 0 0 0;
 }
 .resume-heading-description {
   font-size: 12px;
@@ -155,6 +155,10 @@
   font-size: 16px;
   color: var(--dark-orange);
 }
+.experience-description {
+  font-size: 12px;
+  text-align: justify;
+}
 
 @media only screen and (max-width: 1110px) {
   .resume-card {
@@ -182,7 +186,7 @@
     width: 90%;
   }
   .resume-bullet-details {
-    height: 360px;
+    height: 620px;
     width: fit-content;
     padding: 0;
   }
